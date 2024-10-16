@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doubles Players - Evolution of Indian Badminton Players</title>
+    <link rel="stylesheet" href="doubles-players.css">
+    <link rel="stylesheet" href="common.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '15px',
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Badminton Evolution Logo">
+            <h1>Indian Badminton Evolution</h1>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul id="dropdown-menu">
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="beginnings.html"><strong>History</strong></a></li>
+                <li><a href="prakash-padukone.html"><strong>Prakash Padukone</strong></a></li>
+                <li><a href="gopichand.html"><strong>Pullela Gopichand</strong></a></li>
+                <li><a href="saina-nehwal.html"><strong>Saina Nehwal</strong></a></li>
+                <li><a href="pv-sindhu.html"><strong>PV Sindhu</strong></a></li>
+                <li><a href="new-generation.html"><strong>New Generation</strong></a></li>
+                <li><a href="doubles-players.html"><strong>Doubles Players</strong></a></li>
+                <li><a href="paris-2024.html"><strong>Paris Olympics 2024</strong></a></li>
+                <li><a href="major-tournaments.html"><strong>Tournaments</strong></a></li>
+                <li><a href="achievements.html"><strong>Achievements</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carousel-section">
+        <div class="carousel">
+            <div><img src="images/2.jpg" alt="Player 2"></div>
+            <div><img src="images/33.png" alt="Player 3"></div>
+            <div><img src="images/4.jpg" alt="Player 4"></div>
+            <div><img src="images/5.jpg" alt="Player 5"></div>
+        </div>
+    </section>
+
+    <section class="teams-section">
+        <h2>Top Doubles Teams</h2>
+        <p>Indian badminton has seen great success in doubles, with teams leading the way.</p>
+
+        <div class="teams-container">
+            <div class="mens-team">
+                <h3>Men's Doubles Teams</h3>
+                <ul>
+                    <li><strong>Chirag Shetty & Satwiksairaj Rankireddy</strong> - Pioneers in men’s doubles, known for their dynamic play style.</li>
+                    <li><strong>Manu Attri & B. Sumeeth Reddy</strong> - Consistent performers on the international circuit.</li>
+                </ul>
+            </div>
+
+            <div class="womens-team">
+                <h3>Women's Doubles Teams</h3>
+                <ul>
+                    <li><strong>Jwala Gutta & Ashwini Ponnappa</strong> - Renowned for their achievements, including medals at the Commonwealth Games.</li>
+                    <li><strong>Neha Pandit & P. V. Sindhu</strong> - Rising stars making their mark in women's doubles.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Evolution of Indian Badminton Players</p>
+    </footer>
+</body>
+</html>
